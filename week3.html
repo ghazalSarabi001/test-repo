@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Solo Leveling</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/132/857/original/solo-leveling-sung-jin-woo-uhdpaper.com-hd-7.1066.jpg?1720761692");
+        background-size: cover;
+        background-position: center;
+      }
+
+      .container {
+        /* background-image: url("solo-leveling-sung-jin-woo-uhdpaper.com-hd-7.1066.jpg"); */
+        background-size: cover;
+        background-position: center;
+        height: 785px;
+        display: flex;
+        flex-direction: row;
+      }
+
+      .vertical-h1 {
+        font-size: 40px;
+        width: 10%;
+        padding-left: 30px;
+        display: inline-block;
+        text-shadow: -3px 7px 6px rgba(15, 204, 236, 0.5);
+        color: #0fccec;
+        border: 2px solid white;
+      }
+
+      .image {
+        width: 35%;
+        height: 785px;
+        display: inline-block;
+      }
+
+      img {
+        width: 100%;
+        height: inherit;
+        object-fit: cover;
+      }
+
+      .content {
+        width: 60%;
+        /* background: rgb(204, 208, 207); */
+        background-image: linear-gradient(
+          to left,
+          #3c537cd8,
+          #31496b,
+          #273e5a,
+          #1e3349,
+          #162839
+        );
+        height: 785px;
+        padding: 80px 70px;
+        display: block;
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+          "Lucida Sans", Arial, sans-serif;
+        transition: all 2s;
+      }
+
+      .content:hover {
+        background-size: cover;
+        background-position: left;
+        transform: translateX(-700px);
+      }
+
+      .content div {
+        width: 90%;
+        /* border: 2px solid red; */
+      }
+
+      h2 {
+        font-size: 35px;
+        padding: 20px 0;
+        /* margin-top: 50px; */
+        text-shadow: -3px 7px 6px rgba(15, 204, 236, 0.5);
+        color: #0fccec;
+        font-weight: bold;
+      }
+
+      p {
+        font-size: 24px;
+        margin: 30px;
+        text-shadow: -3px 7px 6px rgba(15, 204, 236, 0.5);
+        color: #ffff;
+      }
+
+      span {
+        color: #0fccec;
+      }
+
+      button {
+        padding: 20px 20px;
+        border-radius: 4px;
+        background-color: #0fccec;
+        color: white;
+        display: block;
+        font-size: 18px;
+        margin: 45px auto;
+        border: 1px solid #0fccec;
+        box-shadow: 5px 5px 60px black;
+      }
+      button:hover {
+        cursor: pointer;
+        text-shadow: -3px 7px 6px rgba(15, 204, 236, 0.5);
+        font-size: 17px;
+      }
+
+      a {
+        color: white;
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      .ghazal {
+        font-size: 12px;
+        margin-top: 120px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="vertical-h1">
+        <h1>나</h1>
+        <h1>혼</h1>
+        <h1>자</h1>
+        <h1>만</h1>
+        <h1>레</h1>
+        <h1>벨</h1>
+        <h1>업</h1>
+      </div>
+
+      <div class="image">
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/133/091/original/photo_2024-07-12_10-45-28.jpg?1720850500"
+          alt=""
+        />
+      </div>
+
+      <div class="content">
+        <div>
+          <strong><h2>Watch Solo Leveling</h2></strong>
+          <hr />
+          <p>
+            They say that whatever doesn’t kill you makes you stronger, but for
+            Sung Jinwoo, the world’s weakest hunter, that adage doesn’t quite
+            hold true. After a brutal encounter with monsters in a high-ranking
+            dungeon, Jinwoo miraculously returns with a
+            <em
+              ><span>mysterious System</span>—a program visible only to him—</em
+            >that begins leveling him up in every conceivable way. Now, fueled
+            by newfound inspiration, he embarks on a quest to unravel the
+            secrets behind his newfound powers and the enigmatic dungeon from
+            which they emerged.
+          </p>
+        </div>
+
+        <a
+          href="https://www.webnovel.com/comic/solo-leveling(only-i-level-up)_15227640605485101/004-%22the-lord%22_45196200802051427"
+          >read the manga here</a
+        >
+
+        <button>Click Here to Download</button>
+
+        <p class="ghazal">Coded by Ghazala Sarabi</p>
+      </div>
+    </div>
+
+    <script>
+      function askInformation() {
+        let name = prompt("What is your name?");
+        let email = prompt("What is your email address?");
+
+        if (email.length > 0) {
+          alert("Thank you " + name + ", we will send you the download link.");
+        } else {
+          alert("You didn't provide any information. Try again!");
+        }
+      }
+      let button = document.querySelector("button");
+      button.addEventListener("click", askInformation);
+    </script>
+  </body>
+</html>
